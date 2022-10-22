@@ -3,7 +3,7 @@ from gym import spaces
 from gym.utils import seeding
 import logging
 import random
-logging.basicConfig(filename='home/jovyan//env.log',level=logging.DEBUG, filemode='w')
+logging.basicConfig(filename='env.log',level=logging.DEBUG, filemode='w')
 
 
 def cmp(a, b):
